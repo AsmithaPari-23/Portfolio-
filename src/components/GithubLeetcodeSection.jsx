@@ -74,28 +74,16 @@ export default function GithubLeetcodeSection() {
 
               {/* Stats Grid */}
               <div className="grid grid-cols-2 gap-6 font-space">
-                <div className="border-b border-portfolio-border/40 pb-3">
+                <div>
                   <span className="text-[10px] text-portfolio-secondary uppercase block tracking-wider">REPOSITORIES</span>
                   <span className="text-3xl font-extrabold text-portfolio-primary mt-1 block">
                     {GithubData.repositories}
                   </span>
                 </div>
-                <div className="border-b border-portfolio-border/40 pb-3">
+                <div>
                   <span className="text-[10px] text-portfolio-secondary uppercase block tracking-wider">TOTAL COMMITS</span>
                   <span className="text-3xl font-extrabold text-portfolio-accent mt-1 block">
                     {GithubData.commits}
-                  </span>
-                </div>
-                <div>
-                  <span className="text-[10px] text-portfolio-secondary uppercase block tracking-wider">FOLLOWERS</span>
-                  <span className="text-xl font-bold text-portfolio-primary mt-1 block">
-                    {GithubData.followers}
-                  </span>
-                </div>
-                <div>
-                  <span className="text-[10px] text-portfolio-secondary uppercase block tracking-wider">FOLLOWING</span>
-                  <span className="text-xl font-bold text-portfolio-primary mt-1 block">
-                    {GithubData.following}
                   </span>
                 </div>
               </div>

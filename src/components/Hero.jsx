@@ -104,7 +104,7 @@ export default function Hero() {
             <div className="text-[10px] text-portfolio-secondary uppercase tracking-widest mt-1">COMPLETED PROJECTS</div>
           </div>
           <div>
-            <div className="text-3xl font-bold text-portfolio-primary tracking-tight">632+</div>
+            <div className="text-3xl font-bold text-portfolio-primary tracking-tight">25+</div>
             <div className="text-[10px] text-portfolio-secondary uppercase tracking-widest mt-1">GIT COMMITS</div>
           </div>
         </motion.div>
