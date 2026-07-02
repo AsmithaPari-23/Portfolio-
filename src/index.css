@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-portfolio-bg text-portfolio-primary font-manrope antialiased overflow-x-hidden;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-sora;
+  }
+}
+
+@layer utilities {
+  /* Editorial details */
+  .border-thin {
+    @apply border border-portfolio-border;
+  }
+  .border-t-thin {
+    @apply border-t border-portfolio-border;
+  }
+  .border-b-thin {
+    @apply border-b border-portfolio-border;
+  }
+  .border-l-thin {
+    @apply border-l border-portfolio-border;
+  }
+  .border-r-thin {
+    @apply border-r border-portfolio-border;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-portfolio-bg;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-portfolio-card hover:bg-portfolio-accent/50 transition-colors duration-300;
+  }
+}
+
