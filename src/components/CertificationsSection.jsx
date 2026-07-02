@@ -16,6 +16,13 @@ export default function CertificationsSection() {
       year: "2026",
       skills: "Financial data visualization, perspective tools, system debugging, and software engineering pipeline workflows",
       credentialUrl: "https://drive.google.com/file/d/1qsl3EIXeP6_ZuNvyBATLwuWY_tVZ6oZC/view?usp=sharing"
+    },
+    {
+      title: "React - The Complete Guide (incl. Next.js, Redux)",
+      authority: "Udemy",
+      year: "2026",
+      skills: "React, Next.js, Redux, State Management, Custom Hooks, routing, and modern frontend architecture",
+      credentialUrl: "https://drive.google.com/file/d/1zTM_WmZsbOHVIcQxuUUnP4Vf2JVrFy6y/view?usp=drivesdk"
     }
   ];
 
