@@ -1,4 +1,4 @@
-# DevSphere - Portfolio Website
+## Portfolio Website
 
 A pixel-perfect, fully responsive portfolio website built with modern web technologies, featuring a dark cyberpunk theme with neon glows, glassmorphism, and smooth animations.
 
