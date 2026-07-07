@@ -41,11 +41,10 @@ export default function GithubLeetcodeSection() {
               className="border border-portfolio-border p-4 bg-portfolio-sec flex flex-col items-center justify-center overflow-x-auto"
             >
               <div className="w-full relative flex items-center justify-center min-h-[180px]">
-                {/* Image overlay to blend with portfolio colors */}
                 <img 
                   src={githubImg} 
                   alt="Github Contribution Activity" 
-                  className="max-w-full h-auto rounded-sm invert grayscale contrast-[130%] opacity-85 select-none"
+                  className="max-w-full h-auto rounded-sm select-none"
                   onError={(e) => {
                     e.target.style.display = 'none';
                   }}

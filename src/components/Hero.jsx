@@ -87,8 +87,8 @@ export default function Hero() {
         >
           <h3 className="font-space text-xs tracking-wider uppercase text-portfolio-accent">// INTRODUCTION</h3>
           <p className="text-portfolio-secondary font-manrope text-sm leading-relaxed max-w-sm">
-            IT undergraduate student with an intense focus on building full-stack web applications. 
-            Blending technical rigor with clean visual hierarchy to develop secure, functional, and beautiful web products.
+            Full-Stack Developer specializing in building high-performance web applications. 
+            Blending technical rigor with clean visual hierarchy to develop secure, functional, and user-centric web products.
           </p>
         </motion.div>
 

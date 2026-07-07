@@ -67,9 +67,9 @@ export default function AboutSection() {
             </h3>
             
             <p className="text-portfolio-secondary text-sm md:text-base leading-relaxed">
-              I am Asmitha P., a dedicated IT undergraduate developer deeply fascinated by the capabilities of full-stack engineering. 
-              My expertise centers around the MERN (MongoDB, Express.js, React, Node.js) stack, where I write robust server logic and build high-performance client-side layouts. 
-              I design products with a critical focus on usability, page-speed, security, and standards-compliant code.
+              I am Asmitha P., an IT full-stack engineer. 
+              My expertise centers around the MERN (MongoDB, Express.js, React, Node.js) stack, where I architect robust server logic and build high-performance client-side interfaces. 
+              I design products with a critical focus on usability, optimization, security, and standards-compliant code.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 border-t border-portfolio-border pt-6 mt-6 font-space text-xs uppercase tracking-wider text-portfolio-secondary">
