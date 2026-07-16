@@ -3,17 +3,20 @@ import { FiGithub, FiExternalLink, FiArrowRight } from 'react-icons/fi';
 import { projects } from '../data/projects';
 import project1Img from '../assets/projects/project1.png';
 import project2Img from '../assets/projects/project2.png';
+import project3Img from '../assets/projects/project3.png';
 
 // Map images correctly
 const projectImages = {
   1: project1Img, // Real screenshot present for supermarket system
-  2: project2Img, // Real screenshot present for faculty system
+  2: project2Img, // Real screenshot present for collaborative code editor
+  3: project3Img, // Real screenshot present for faculty system
 };
 
 // Detailed descriptions for editorial depth
 const projectFullDescriptions = {
   1: "A comprehensive retail checkout application designed to automate store operations. Built on React and Express with MongoDB, it supports product catalog management, transactional ledger storage, and automated billing generation.",
-  2: "An academic administration hub that automates faculty advising workflows. Facilitates digital approvals for course changes, attendance monitoring, and direct message flows between mentors and students under high-integrity JWT protection protocols.",
+  2: "A real-time collaborative code editor and workspace featuring live multi-user editing, a code execution console, active member tracking, and a clean developer-centric user interface.",
+  3: "An academic administration hub that automates faculty advising workflows. Facilitates digital approvals for course changes, attendance monitoring, and direct message flows between mentors and students under high-integrity JWT protection protocols.",
 };
 
 export default function ProjectsSection() {

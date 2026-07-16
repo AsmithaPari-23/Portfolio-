@@ -100,11 +100,11 @@ export default function Hero() {
           className="grid grid-cols-2 gap-4 border-y md:border-y-0 md:border-x border-portfolio-border py-6 md:py-0 md:px-8 font-space"
         >
           <div>
-            <div className="text-3xl font-bold text-portfolio-primary tracking-tight">02+</div>
+            <div className="text-3xl font-bold text-portfolio-primary tracking-tight">03+</div>
             <div className="text-[10px] text-portfolio-secondary uppercase tracking-widest mt-1">COMPLETED PROJECTS</div>
           </div>
           <div>
-            <div className="text-3xl font-bold text-portfolio-primary tracking-tight">25+</div>
+            <div className="text-3xl font-bold text-portfolio-primary tracking-tight">53+</div>
             <div className="text-[10px] text-portfolio-secondary uppercase tracking-widest mt-1">GIT COMMITS</div>
           </div>
         </motion.div>

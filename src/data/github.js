@@ -1,6 +1,6 @@
 export const GithubData = {
     username: "AsmithaPari-23",
-    repositories: 15,
-    commits: 25,
+    repositories: 17,
+    commits: 53,
     topLanguages: ["JavaScript", "HTML", "CSS"]
 }

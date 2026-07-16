@@ -53,6 +53,9 @@ export default function ExperienceSection() {
                 <span className="font-space text-[10px] tracking-wider text-portfolio-secondary uppercase block">
                   {exp.location}
                 </span>
+                <span className="font-space text-[9px] tracking-[0.1em] text-portfolio-secondary/70 uppercase block">
+                  Duration // 2 Month
+                </span>
               </div>
 
               {/* Title & Description */}
