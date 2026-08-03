@@ -130,7 +130,7 @@ export default function GithubLeetcodeSection() {
 
               <div className="flex justify-between items-center py-2 border-y border-portfolio-border/40 font-space text-xs">
                 <span className="text-portfolio-secondary">PROBLEMS RESOLVED</span>
-                <span className="text-portfolio-primary font-bold">150+ SOLVED</span>
+                <span className="text-portfolio-primary font-bold">200+ SOLVED</span>
               </div>
 
               <div className="pt-2">
